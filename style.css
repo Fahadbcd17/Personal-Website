@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 span{
+    color: chocolate;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text-style{  
+    padding: 10px 20px;
+    color: chocolate;
+    border: 2px solid chocolate;
+    font-weight: 500;
+    transition: 1s ease background-color;
+}
+
+.text-style:hover{
+    color: white;
+    background-color: chocolate;
+    text-decoration: none;
+}
+
+#header{
+    min-height: 700px;
+}
+
+#header{
+    background-image: url(./header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#biography{
+    min-height: 700px;
+    background-image: url(./biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#latest-work{
+    min-height: 450px;
+    margin-top: 80px;
+    background-image: url(./latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+
+#footer{
+    min-height: 450px;
+    margin-top: 80px;
+}
+
+#footer h2{
+    font-weight: 600;
+}
+#footer h6{
+    color: gray;
+    margin-top: 80px;
+}
+#footer h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#footer .footer-p{
+    font-weight: 500;
+}
+
+#footer{
+    background-image: url(./footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+#footer .footer-design{
+    height: 130px;
+    max-width: 570px;
+    border-radius: 10px;
+    background-color: #FF4177;
+    margin: 70px auto;
+    text-align: center;
+    color: white;
+}
+
+
+#footer .footer-design .text{
+    padding-top: 20px;
+}
+
+.row{
+    padding-top: 80px;
+    padding-left: 20px;
+}
